@@ -6,10 +6,10 @@ class Blelora < Formula
     if OS.mac?
       if Hardware::CPU.arm?
         url "https://github.com/blelora/blelora-cli/releases/download/#{version}/blelora-cli_#{version}_aarch64-apple-darwin.zip"
-        sha256 "34e2d0d56414af380239d6a27deb9e6ec3b3e61e2b2c5c67191e0109cf3115a6" 
+        sha256 "364689241672873167059b98006938c86b8c001c5f7393bc7c0d4dcd7e117874" 
       else
         url "https://github.com/blelora/blelora-cli/releases/download/#{version}/blelora-cli_#{version}_x86_64-apple-darwin.zip"
-        sha256 "1aad79892e3e55761b21ea0d403e31e29b553366fc58c46d2fd02213ed85d445" 
+        sha256 "f2bf1070e802350e3ab2bf8ca931d90df9bf8fe410112ff6532c1c14cf2cede7" 
       end
     end
   
